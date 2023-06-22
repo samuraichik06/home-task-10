@@ -1,0 +1,137 @@
+main{
+    display: flex;
+}
+.divbig1{
+    height: 100%;
+    width: 50%;
+}
+.touch{
+    margin: 65px 0px 0px 55px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lorembla{
+    color: gray;
+    margin: 65px 0px 0px 55px;
+    line-height: 25px;
+}
+.visit{
+    margin-top: 40px;
+    margin-left: 55px;
+}
+.p1{
+    font-size: larger;
+    font-weight: bold;
+    margin-left:10px ;
+    margin-top: 10px;
+}
+.p11{
+    color: gray;
+    margin-left:10px ;
+    margin-top: 5px;
+}
+.drop{
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.p2{
+    font-size: larger;
+    font-weight: bold;
+    margin-left:10px ;
+    margin-top: 10px;
+}
+.p22{
+    color: gray;
+    margin-left:10px ;
+    margin-top: 5px;
+}
+.call{
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.p3{
+    font-size: larger;
+    font-weight: bold;
+    margin-left:10px ;
+    margin-top: 10px;
+}
+.p33{
+    color: gray;
+    margin-left:10px ;
+    margin-top: 5px;
+}
+.icon{
+    display: flex;
+}
+#fa-phone{
+    margin-top: 15px;
+    font-size: larger;
+}
+#fa-envelope{
+    margin-top: 15px;
+    font-size: larger;
+}
+#fa-comment{
+    margin-top: 15px;
+    font-size: larger;
+}
+.divinput1{
+    display: flex;
+}
+::placeholder{
+    color: gray;
+    padding: 15px;
+    font-size: large;
+}
+.input1{
+    border: 1px solid gray;
+    height: 60px;
+    width: 270px;
+    border-radius: 20px;
+    margin-top: 65px;
+}
+#name{
+    margin-left: 50px;
+}
+#surname{
+    margin-left: 20px;
+}
+.input2{
+    border: 1px solid gray;
+    height: 60px;
+    width: 560px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+textarea{
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.checkbox{
+    margin-top: 25px;
+    margin-left: 50px;
+    color: gray;
+}
+button{
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: #212121;
+    height: 60px;
+    width: 560px;
+    margin-left: 50px;
+    margin-top: 45px;
+    font-size: larger;
+}
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
